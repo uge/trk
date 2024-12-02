@@ -9149,6 +9149,19 @@
 		)
 		(uuid "2a36a4ef-1440-4da5-84a8-c162973c6018")
 	)
+	(label "MON_VBUS"
+		(at 52.07 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "333e2622-943a-4d81-812f-ce07915ce6e0")
+	)
 	(label "SCL"
 		(at 200.66 259.08 180)
 		(fields_autoplaced yes)
@@ -9220,19 +9233,6 @@
 			(justify left bottom)
 		)
 		(uuid "3c85acef-afcf-4df0-9cd8-dbf36f925682")
-	)
-	(label "MON_VBUS"
-		(at 52.07 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3edea77b-fd6a-45a1-8abe-0aae0a83aa7e")
 	)
 	(label "+3.3V_Ferrite"
 		(at 60.96 58.42 0)
@@ -9360,17 +9360,6 @@
 			(justify left bottom)
 		)
 		(uuid "76e9a2d8-b8e9-4e47-affe-aff12bf75c0d")
-	)
-	(label "AIN7"
-		(at 52.07 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79ec8508-1d41-4bbc-b7a8-e310145762dd")
 	)
 	(label "UART_RX"
 		(at 200.66 261.62 180)
@@ -9556,7 +9545,7 @@
 		)
 		(uuid "a394c304-481a-46c9-9ade-feda73ecbe8f")
 	)
-	(label "AIN7"
+	(label "MON_VBUS"
 		(at 185.42 207.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9824,6 +9813,17 @@
 			(justify left bottom)
 		)
 		(uuid "f6bd7226-d22f-49c2-98b0-3db5b1e2f37a")
+	)
+	(label "AIN0"
+		(at 52.07 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc8660e1-988d-43ae-9baa-ddd557d3ec6d")
 	)
 	(netclass_flag ""
 		(length 2.54)
