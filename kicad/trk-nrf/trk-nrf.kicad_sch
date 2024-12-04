@@ -3385,22 +3385,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X"
-				(at -5.08 6.35 0)
+			(property "Reference" "X1"
+				(at -6.35 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Value" "TG2520SMN-xx.xxxxxxMhz-xxxxNM"
-				(at 1.27 -6.35 0)
+				(at -6.35 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
@@ -3412,7 +3412,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311291321_Abracon-LLC-ATX-12-F-26-000MHZ-F05-T_C5590921.pdf"
 				(at -2.54 0 0)
 				(effects
 					(font
@@ -3422,6 +3422,15 @@
 				)
 			)
 			(property "Description" "Crystal Oscillator Low Profile / High Stability TCXO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Number" "C5590921"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3475,6 +3484,24 @@
 				)
 			)
 			(symbol "TG2520SMN-xx.xxxxxxMhz-xxxxNM_1_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin no_connect line
 					(at -5.08 0 0)
 					(length 2.54) hide
@@ -3494,7 +3521,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at 2.54 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -6432,6 +6459,12 @@
 		(uuid "2db7ff3a-1de2-411e-8cd5-5cad91e69258")
 	)
 	(junction
+		(at 190.5 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31ab8e9b-3de7-47de-aea3-f2c23544ec7f")
+	)
+	(junction
 		(at 318.77 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6797,6 +6830,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 121.92) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9c5273-9f40-43be-ac93-4424a3ed2569")
+	)
+	(wire
+		(pts
 			(xy 179.07 52.07) (xy 173.99 52.07)
 		)
 		(stroke
@@ -7007,7 +7050,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 121.92) (xy 190.5 123.19)
+			(xy 190.5 121.92) (xy 190.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7954,6 +7997,16 @@
 			(type default)
 		)
 		(uuid "9b3380d4-53db-4d65-9f34-fcb3aec12783")
+	)
+	(wire
+		(pts
+			(xy 187.96 121.92) (xy 190.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b699f01-5818-46fe-9e33-afb769d5c925")
 	)
 	(wire
 		(pts
@@ -10255,7 +10308,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0c44841d-38b8-4061-b20b-d0bf2bd5e0e2")
 		(property "Reference" "J2"
 			(at 170.815 173.99 0)
@@ -13009,7 +13062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311291321_Abracon-LLC-ATX-12-F-26-000MHZ-F05-T_C5590921.pdf"
 			(at 187.96 114.3 0)
 			(effects
 				(font
@@ -13027,7 +13080,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C3007519"
+		(property "JLCPCB Part Number" "C5590921"
 			(at 190.5 114.3 0)
 			(effects
 				(font
@@ -13047,6 +13100,9 @@
 		)
 		(pin "4"
 			(uuid "5fd72ab0-3bac-4536-8dd2-bd727b3aaf3d")
+		)
+		(pin "1"
+			(uuid "2df866a1-9255-44aa-99c0-e99249bcb510")
 		)
 		(instances
 			(project ""
@@ -14447,7 +14503,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 123.19 0)
+		(at 190.5 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14456,7 +14512,7 @@
 		(fields_autoplaced yes)
 		(uuid "d64003a7-0f0f-4527-bb28-a9e4a5096ccf")
 		(property "Reference" "#PWR019"
-			(at 190.5 129.54 0)
+			(at 190.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14465,7 +14521,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 128.27 0)
+			(at 190.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,7 +14529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 123.19 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +14538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 123.19 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,7 +14547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 123.19 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
