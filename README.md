@@ -26,3 +26,11 @@ buck-boost converters for the 1.8V and 3.3V supplies respectively.
 ## Manufacturing
 
 This design is targeted at JLCPCB 4 layer design rules and includes JLCPCB part numbers in the BOM.
+
+## License and Copyright
+
+Copyright 2024 - Eugene Feinberg (ugeook at gmail dot com)
+
+Licensed under Creative Commons Attribution-NonCommercial 4.0 International Public License
+
+
